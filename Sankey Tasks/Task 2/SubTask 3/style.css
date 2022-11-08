@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+}
+#employeeTable {
+	display: none;
+}
+#loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	width: 100vw;
+}

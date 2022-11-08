@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="bg-image"></div>
+	<div class="main-container">
+		<div class="login-container">
+			<div class="welcome">Welcome back</div>
+			<div class="header">Login to your account</div>
+			<form class="login-form" action="" method="get">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="John.snow@gmail.com">
+				<label for="password">Password</label>
+				<input type="password" name="passwword" id="password">
+				<div class="forget-password">
+					<label for="remember">
+						<input type="checkbox" name="remember" class="checkbox-round">
+						Remember me
+					</label>
+					<a href="#">Forgot password?</a>
+				</div>
+				<button id="login-button">Login now</button>
+				<button id="google-button">
+					<img src="google-button.png" alt="">
+					Or sign-in with google
+				</button>
+			</form>
+		</div>
+	<div class="signup-container">
+		Dont have an account?
+		<a href="#">Join free today</a>
+	</div>
+</div>
+</body>
+</html>
